@@ -62,7 +62,7 @@ nav ul li a:hover{
 #contenido .subMenu{
     border: 4px dotted firebrick;
     padding: 10px;
-    background-color: #E6DBC8;
+    background-color: cadetblue;
 }
 #contenido .subMenu h2{
     text-transform: uppercase;
@@ -152,7 +152,7 @@ footer{
 }
 footer{
     text-align: center;
-    background-color: #E6DBC8;
+    background-color: cadetblue;
     border-top: 4px dotted firebrick;
 }
 footer a{
