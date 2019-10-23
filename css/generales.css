@@ -35,14 +35,14 @@ body{
     position: relative;
     top: 2em;
     left: 25px;
-    color: brown;
+    color: darkblue;
 }
 /**NAV**/
 nav{
     clear: both;
     margin: 5px;
-    background-color: cadetblue;
-    border: 4px dotted firebrick;
+    background-color:aqua;
+    border: 4px dotted mediumblue;
     border-radius: 20px;
 }
 nav ul li a{
@@ -54,15 +54,15 @@ nav ul li a{
     transition: 1s ease all;
 }
 nav ul li a:hover{
-    background-color: firebrick;
+    background-color: mediumblue;
     color: #FFF;
 }
 
 /**BODY SUBMENU**/
 #contenido .subMenu{
-    border: 4px dotted firebrick;
+    border: 4px dotted mediumblue;
     padding: 10px;
-    background-color: cadetblue;
+    background-color:aqua;
 }
 #contenido .subMenu h2{
     text-transform: uppercase;
@@ -97,7 +97,7 @@ body #tituloContenido{
 #contenido article{
     margin: 10px 0px;
     text-align: justify;
-    border-bottom: 4px dotted firebrick;
+    border-bottom: 4px dotted mediumblue;
     padding-bottom: 5px;
 }
 #contenido .subTitulos,h3{
@@ -111,10 +111,10 @@ body #tituloContenido{
 }
 /**BODY TABLA**/
 #contenido table{
-    background-color: cadetblue;
+    background-color:aqua;
 }
 #contenido table,td{
-    border: 1px solid crimson;
+    border: 1px solid mediumblue;
 }
 #contenido td{
     padding: 5px;
@@ -152,12 +152,12 @@ footer{
 }
 footer{
     text-align: center;
-    background-color: cadetblue;
-    border-top: 4px dotted firebrick;
+    background-color:aqua;
+    border-top: 4px dotted mediumblue;
 }
 footer a{
     text-decoration: none;
-    color: firebrick;
+    color:mediumblue;
 }
 footer a:hover{
     color: #000;
