@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 body{
-    background-image: url("../imagenes/dynamic-style.png");
+    background-image: url("../imagenes/cielo.gif");
 }
 /**HEADER**/
 #cabecera{
@@ -35,37 +36,63 @@ body{
     position: relative;
     top: 2em;
     left: 25px;
-    color: darkblue;
+    color:white;
 }
 /**NAV**/
 nav{
     clear: both;
     margin: 5px;
-    background-color:aqua;
-    border: 4px dotted mediumblue;
     border-radius: 20px;
 }
 nav ul li a{
-    color: #404040;
+    color: white;
     text-decoration: none;
     display: block;
     padding: 5px;
     margin: 5px;
     transition: 1s ease all;
+    background-color: royalblue;
 }
 nav ul li a:hover{
-    background-color: mediumblue;
+    background-color: red;
     color: #FFF;
 }
+nav .ini ul li a{
+    display: inline-block;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    color: red ; font-size: 1cm;
+    transition: 1s ease all;
+    
 
+    
+}
+nav .ini ul li a:hover{
+    
+    background-color: white;
+    color: rgb(250, 9, 9);
+    
+    
+}
+nav .publi img{
+    width: 100%;
+}
+nav .publi img:hover{
+    opacity: .7;
+    cursor: pointer;
+}
 /**BODY SUBMENU**/
 #contenido .subMenu{
-    border: 4px dotted mediumblue;
+   
     padding: 10px;
-    background-color:aqua;
+    background-color:royalblue;
+    border-radius: 20px;
 }
 #contenido .subMenu h2{
     text-transform: uppercase;
+    color: white;
 }
 #contenido .subMenu ul{
     text-align: center;
@@ -76,7 +103,7 @@ nav ul li a:hover{
 }
 #contenido .subMenu a{
     text-decoration: none;
-    color: black;
+    color:white;
     display: inline-block;
     padding: 5px;
     margin: 5px;
@@ -92,7 +119,7 @@ body #tituloContenido{
 }
 #contenido{
     padding: 10px;
-    background-color: #FFF;
+    background-color:#1C80FF;
 }
 #contenido article{
     margin: 10px 0px;
@@ -111,7 +138,7 @@ body #tituloContenido{
 }
 /**BODY TABLA**/
 #contenido table{
-    background-color:aqua;
+    background-color: royalblue;
 }
 #contenido table,td{
     border: 1px solid mediumblue;
@@ -152,15 +179,15 @@ footer{
 }
 footer{
     text-align: center;
-    background-color:aqua;
-    border-top: 4px dotted mediumblue;
+    background-color:royalblue;
+  
 }
 footer a{
     text-decoration: none;
-    color:mediumblue;
+    color: red;
 }
 footer a:hover{
-    color: #000;
+    color: white;
 }
 
 /**Formulario**/
@@ -202,5 +229,10 @@ footer a:hover{
     background: #155FBF;
 }
 #contenido .formulario button:active{
-    background: #072040;
+    background: white;
+}
+#publi{
+    width: 45%;
+    margin: 10px;
+    float: left;
 }

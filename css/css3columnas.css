@@ -2,6 +2,10 @@
     width: 24%;
     float: left;
 }
+#publi{
+    width: 24%;
+    float: unset;
+}
 #contenido{
     width: 50%;
     float: left;
@@ -10,10 +14,8 @@
 #extra{
     width: 24%;
     float: left;
-    background-color: #E6DBC8;
-    border: 4px dotted #1C80FF;
     border-radius: 20px;
-    margin: 5px;
+    margin: 2px;
 }
 
 #extra img{
