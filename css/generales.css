@@ -3,19 +3,29 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+   
+  
 }
+menu{
+    border-radius: 34px 34px 34px 34px;
+}
+
 body{
     background-image: url("../imagenes/cielo.gif");
 }
 /**HEADER**/
 #cabecera{
     width: 100%;
-    background-image: url("../imagenes/descarga.jpg");
+    background-image: url("../imagenes/descarga.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 14.1em;
 }
+#cabecera:hover{
+    background-image: url("../imagenes/descarga1.jpg");
+}
+
 #cabecera img{
     width: 10em;
     height: 10em;
@@ -32,6 +42,7 @@ body{
 #cabecera h1{
     text-transform: uppercase;
     font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
     position: relative;
     top: 2em;
@@ -119,12 +130,11 @@ body #tituloContenido{
 }
 #contenido{
     padding: 10px;
-    background-color:#1C80FF;
+
 }
 #contenido article{
     margin: 10px 0px;
     text-align: justify;
-    border-bottom: 4px dotted mediumblue;
     padding-bottom: 5px;
 }
 #contenido .subTitulos,h3{
@@ -132,16 +142,29 @@ body #tituloContenido{
 }
 #contenido img{
     width: 100%;
+    
 }
 #contenido img:hover{
     opacity: .8;
+    
 }
 /**BODY TABLA**/
 #contenido table{
     background-color: royalblue;
+   
 }
 #contenido table,td{
-    border: 1px solid mediumblue;
+    border: 1px outset mediumblue;
+    text-align: left;
+    vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+    
+}
+#contenido table td:hover{
+    background-color: red;
 }
 #contenido td{
     padding: 5px;
@@ -164,13 +187,17 @@ body #tituloContenido{
 #extra img:hover{
     opacity: .7;
     cursor: pointer;
+    
 }
 /**ASIDE 2**/
 .rg{
     width: 100%;
 }
 .rg img{
-    width: 100%;
+    width: 50%;
+    margin: auto;
+    display: block;
+
 }
 
 /**FOOTER**/
@@ -188,6 +215,15 @@ footer a{
 }
 footer a:hover{
     color: white;
+
+    
+}
+footer p:hover{
+    -moz-transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    -o-transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    transform: scale(2.2)
 }
 
 /**Formulario**/
