@@ -6,9 +6,6 @@
    
   
 }
-menu{
-    border-radius: 34px 34px 34px 34px;
-}
 
 body{
     background-image: url("../imagenes/cielo.gif");
@@ -21,6 +18,8 @@ body{
     background-size: cover;
     background-position: center;
     height: 14.1em;
+    
+    
 }
 #cabecera:hover{
     background-image: url("../imagenes/descarga1.jpg");
@@ -35,6 +34,7 @@ body{
     top: 2.2em;
     left: 1em;
     transition: transform 2s ease-out;
+  
 }
 #cabecera>img:hover{
     transform: rotate(360deg);
@@ -48,13 +48,17 @@ body{
     top: 2em;
     left: 25px;
     color:white;
+    
 }
 /**NAV**/
 nav{
     clear: both;
     margin: 5px;
     border-radius: 20px;
+    line-height: 30px;
+  
 }
+
 nav ul li a{
     color: white;
     text-decoration: none;
@@ -62,7 +66,14 @@ nav ul li a{
     padding: 5px;
     margin: 5px;
     transition: 1s ease all;
-    background-color: royalblue;
+    background-color:royalblue;
+    border: red;
+    border-radius: 10px 10px 10px 10px;
+    
+   
+
+    
+    
 }
 nav ul li a:hover{
     background-color: red;
@@ -77,6 +88,10 @@ nav .ini ul li a{
     color: red ; font-size: 1cm;
     transition: 1s ease all;
     
+    
+   
+    
+    
 
     
 }
@@ -84,6 +99,7 @@ nav .ini ul li a:hover{
     
     background-color: white;
     color: rgb(250, 9, 9);
+    
     
     
 }
@@ -107,6 +123,7 @@ nav .publi img:hover{
 }
 #contenido .subMenu ul{
     text-align: center;
+    
 }
 #contenido .subMenu li{
     list-style: none;
@@ -207,6 +224,8 @@ footer{
 footer{
     text-align: center;
     background-color:royalblue;
+
+
   
 }
 footer a{
@@ -224,6 +243,7 @@ footer p:hover{
     -o-transform: scale(2.2);
     -ms-transform: scale(2.2);
     transform: scale(2.2)
+    
 }
 
 /**Formulario**/
