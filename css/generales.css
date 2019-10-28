@@ -89,19 +89,34 @@ nav .ini ul li a{
     transition: 1s ease all;
     
     
-   
-    
-    
-
-    
 }
 nav .ini ul li a:hover{
     
     background-color: white;
     color: rgb(250, 9, 9);
+  
+}
+.search{
+    position: relative;
+}
+.search input{
     
-    
-    
+    background: white;
+    border: none;
+    color: black;
+    border-bottom:1px solid royalblue;
+    padding: 10px 15px 10px 40px;
+    width: 100%;
+    border-radius: 10px;
+  
+}
+.search label{
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    z-index: 100;
+    left: 5px;
+    top: 5px;
 }
 nav .publi img{
     width: 100%;
