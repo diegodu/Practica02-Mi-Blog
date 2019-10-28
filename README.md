@@ -94,7 +94,22 @@ https://github.com/diegodu/Practica02-Mi-Blog.git
 Tutorial2:
 https://github.com/diegodu/Tutorial2.git
 
-
+7. Tutorial 2
+Bike.html:
+![image](https://user-images.githubusercontent.com/34308601/67688271-9055ca80-f967-11e9-8f46-72009b1c00be.png)
+Home.html:
+![image](https://user-images.githubusercontent.com/34308601/67688285-98156f00-f967-11e9-958d-65789349cbeb.png)
+Run.html:
+![image](https://user-images.githubusercontent.com/34308601/67688293-9d72b980-f967-11e9-9992-c915436b74b2.png)
+Swim.html:
+![image](https://user-images.githubusercontent.com/34308601/67688308-a2d00400-f967-11e9-9f85-6955ea789912.png)
+Layount.css:
+![image](https://user-images.githubusercontent.com/34308601/67688318-a794b800-f967-11e9-863f-78ef1a355883.png)
+![image](https://user-images.githubusercontent.com/34308601/67688335-ac596c00-f967-11e9-9305-fa1eb509c328.png)
+Styles.css
+![image](https://user-images.githubusercontent.com/34308601/67688363-b7140100-f967-11e9-96a9-d0c32bd52dfb.png)
+![image](https://user-images.githubusercontent.com/34308601/67688372-bb401e80-f967-11e9-9a8d-5bbe160bdb39.png)
+![image](https://user-images.githubusercontent.com/34308601/67688392-c2672c80-f967-11e9-9309-8ddab036375b.png)
 RESULTADO(S) OBTENIDO(S):
 Lograr entender los conceptos de html y css y poder implementarlos en una práctica.
 Profundizar estos temas y poder desenvolverme implementando todo lo aprendido en una práctica.
